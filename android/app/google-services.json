@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "267867963857",
+    "firebase_url": "https://ungsales-4bd14.firebaseio.com",
+    "project_id": "ungsales-4bd14",
+    "storage_bucket": "ungsales-4bd14.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:267867963857:android:5be90607097786e0e720f0",
+        "android_client_info": {
+          "package_name": "com.flutterthailand.ungsales"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "267867963857-gpja57s4iql063gfoj75vve8fsujrlau.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAN-DzcxhKF8xJinxCxIW4kvx5xY3PI8Xc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "267867963857-gpja57s4iql063gfoj75vve8fsujrlau.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "267867963857-bq2e8esd8l4moo2iamvse211mbbj0npt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.flutterthailand.ungsales"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
