@@ -35,7 +35,12 @@ class _AddFoodMenuState extends State<AddFoodMenu> {
           width: 200.0,
           height: 200.0,
           padding: EdgeInsets.all(16.0),
-          child: file == null ? Image.asset('images/pic.png') :  Image.file(file, fit: BoxFit.cover,),
+          child: file == null
+              ? Image.asset('images/pic.png')
+              : Image.file(
+                  file,
+                  fit: BoxFit.cover,
+                ),
         ),
         IconButton(
           icon: Icon(Icons.add_photo_alternate),
@@ -56,7 +61,6 @@ class _AddFoodMenuState extends State<AddFoodMenu> {
       setState(() {
         file = File(object.path);
       });
-
     } catch (e) {}
   }
 }

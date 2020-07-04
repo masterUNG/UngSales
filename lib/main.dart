@@ -11,7 +11,8 @@ class MyApp extends StatelessWidget {
       DeviceOrientation.portraitUp,
       DeviceOrientation.portraitDown
     ]);
-    return MaterialApp(theme: ThemeData(primarySwatch: Colors.purple),
+    return MaterialApp(
+      theme: ThemeData(primarySwatch: Colors.purple),
       home: Guest(),
       title: 'Ung Sales',
     );
